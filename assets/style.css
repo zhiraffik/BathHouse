@@ -47,7 +47,7 @@ body{
 }
 
 .navbar1Main, .navbar2Main, .navbar3Main, .navbar4Main {
-    border-left: 4px solid #00000000;
+    border-left: 4px solid ##00000000;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
@@ -91,6 +91,18 @@ body{
 }
 */
 
+.navbarMainTextBar{
+    margin-top: 35px;
+}
+
+.navbarMainText{
+    align-items: center;
+    font-size: 22px;
+    color: #ffffff;
+    font-family: inter;
+    text-align: center;
+
+}
 .secondFrameMain, .secondFrame {
     width: auto;
     height: 100px;
@@ -100,7 +112,7 @@ body{
 }
 
 .secondFrame{
-    background-color: #00000000;
+    background-color: #;
 
 }
 
@@ -124,7 +136,7 @@ body{
 
 .tridhtFrame{
     max-width: 1446px;
-    height: 580px;
+    height: 380px;
     background-image: url(fhon1.png);
     /* background-size: 100%; */
     background-position: 0px -120px;
@@ -137,23 +149,14 @@ body{
     margin-right: auto;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-   
 }
 .phon1 {
     object-fit: contain;
     width: 100%;
-}    
-.tridhtFrame_text{
-    color: #ffffff;
-    line-height: 50px;
-    text-align: center;
-    font-family: inter;
-    margin-top: 80px;
-    width: 700px;
-    margin-left: 18%;
+    
+   
+
 }
-
-
 .fourthFrame{
     background-color: #765C4A;
     width: auto;
